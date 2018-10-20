@@ -12,19 +12,19 @@
 
 	public class Final 
 	{
-		WebDriver dr;
+		//WebDriver dr;
 		@BeforeTest
 		
 		public void login()
 		{
 			
 			//System.setProperty("webdriver.chrome.driver", "J:\\chrome\\chromedriver.exe");
-			 dr=new FirefoxDriver();
+			 //=new FirefoxDriver();
 			
 			//dr=new ChromeDriver();
 			System.out.println("Before Test");
-			dr.get("https://paytm.com/");
-			dr.manage().window().maximize();
+			//dr.get("https://paytm.com/");
+			//dr.manage().window().maximize();
 		}
 	@Test
 
