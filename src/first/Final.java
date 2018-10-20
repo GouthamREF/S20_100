@@ -70,8 +70,9 @@
 		
 		public void logout()
 		{
+			System.out.println("Govinda");
 			System.out.println("After test");
-			//dr.quit();
+			dr.quit();
 		}
 		
 	}
