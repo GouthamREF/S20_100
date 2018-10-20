@@ -18,10 +18,10 @@
 		public void login()
 		{
 			
-			System.setProperty("webdriver.chrome.driver", "J:\\chrome\\chromedriver.exe");
-			 //dr=new FirefoxDriver();
+			//System.setProperty("webdriver.chrome.driver", "J:\\chrome\\chromedriver.exe");
+			 dr=new FirefoxDriver();
 			
-			dr=new ChromeDriver();
+			//dr=new ChromeDriver();
 			System.out.println("Before Test");
 			dr.get("https://paytm.com/");
 			dr.manage().window().maximize();
